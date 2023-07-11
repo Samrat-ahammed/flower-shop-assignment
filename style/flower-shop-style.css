@@ -158,13 +158,19 @@ body {
   text-align: center;
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 50px;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
-  padding: 30px;
-  margin-left: 90px;
-  margin-right: 90px;
   gap: 30px;
+  margin: auto;
 }
+
+/* .category-image {
+  align-items: center;
+  width: 150px;
+  height: 200px;
+} */
 
 /* hot deal section */
 
@@ -208,26 +214,25 @@ body {
 
 .facebook-section {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 /* latest deal section style */
 
 .latestdeals-section-container {
-  margin-top: 100px;
   background-image: url("../Flower Asset/Rectangle 9.png");
-  background-position: center;
-  text-align: center;
-  align-items: center;
   width: 100%;
-  text-align: center;
-
   height: 300px;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .latest-search {
+  margin-top: 30px;
   width: 500px;
-
   border: none;
   border-radius: 8px;
   background: #fff;
@@ -247,11 +252,11 @@ body {
   margin-top: 100px;
   background: #111010;
   color: rgba(255, 255, 255, 0.9);
-
-  text-align: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 100px;
 }
 
 .footer-title {
@@ -259,26 +264,21 @@ body {
   text-align: center;
   font-family: Lato;
   font-size: 18px;
-  align-items: center;
   font-weight: 400;
   margin-bottom: 20px;
 }
 .footer-subtitle {
   width: 450px;
   font-family: Lato;
-
   font-size: 14px;
   font-weight: 400;
-  padding: auto;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .footer-text {
   margin-top: 50px;
   color: rgba(255, 255, 255, 0.4);
-
   font-family: Lato;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
 }

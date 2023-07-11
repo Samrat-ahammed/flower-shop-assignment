@@ -4,6 +4,49 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.subtitle-text {
+  text-align: center;
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.title-text {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+}
+.subtitle {
+  text-align: justify;
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* primary-button style */
+.primary-button {
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 16px 30px;
+  border-radius: 8px;
+  background: #e55473;
+  padding: auto;
+  border: none;
+  align-items: center;
+}
+
 /* banner style */
 * {
   margin: 0;
@@ -24,18 +67,9 @@ body {
   font-weight: 800;
   margin-bottom: 10px;
   font-size: 30px;
-  /* width: 708px; */
-}
-.subtitle {
   text-align: justify;
-  color: rgba(39, 39, 39, 0.6);
-  font-family: Lato;
-  font-family: Lato;
-  font-size: 14px;
-  font-weight: 400;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
+
 .banner-title-image {
   margin-top: 10px;
   padding-bottom: 0;
@@ -49,20 +83,6 @@ body {
   vertical-align: bottom;
 }
 
-/* primary-button style */
-.primary-button {
-  color: #fff;
-  font-family: Lato;
-  font-size: 20px;
-  font-weight: 700;
-  padding: 16px 30px;
-  border-radius: 8px;
-  background: #e55473;
-  padding: auto;
-  border: none;
-  align-items: center;
-}
-
 /* featured section */
 
 .featured-text-container {
@@ -71,13 +91,7 @@ body {
   text-align: center;
   max-width: 600px;
 }
-.featured-title-text {
-  color: #272727;
-  text-align: center;
-  font-family: Lato;
-  font-size: 40px;
-  font-weight: 800;
-}
+
 .featured-subtitle-text {
   margin-top: 20px;
   color: rgba(39, 39, 39, 0.6);
@@ -169,5 +183,21 @@ body {
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
   margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.hot-deal-text {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* instagram section style */
+
+.instagram-images-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
   margin-bottom: 100px;
 }

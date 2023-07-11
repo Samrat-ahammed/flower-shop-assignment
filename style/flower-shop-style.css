@@ -163,14 +163,9 @@ body {
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
   gap: 30px;
-  margin: auto;
+  margin: 0 auto;
+  width: 80%;
 }
-
-/* .category-image {
-  align-items: center;
-  width: 150px;
-  height: 200px;
-} */
 
 /* hot deal section */
 
